@@ -66,15 +66,15 @@ class TicTaeToe {
   }
 
   result(bol) {
-    this.winner.msg = 'Empate';
+    this.winner.msg = 'Draw';
 
     if(bol === true) {
-      this.winner.msg = 'Circulo ganhou';
+      this.winner.msg = 'Circle win';
       this.winner.scoreCircle++;
     }
 
     if(bol === false) {
-      this.winner.msg = 'X ganhou';
+      this.winner.msg = 'X win';
       this.winner.scoreX++;
     }
 
