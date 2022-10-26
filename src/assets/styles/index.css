@@ -1,0 +1,41 @@
+.container, header {
+  margin: 0 auto;
+  width: 1440px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.container .score, .container .result {
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container .score {
+  margin-bottom: 30px;
+}
+
+.container .result {
+  margin-top: 50px;
+}
+
+
+header h1 { text-align: center; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 470px;
+  width: 470px;
+  gap: 10px;
+  background: blue;
+}
+
+.grid-container .box {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+}
